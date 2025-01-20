@@ -1,0 +1,19 @@
+{
+  "name": "db-nooro-todo-back",
+  "version": "1.0.0",
+  "description": "Backend repo for Nooro assigned todo list app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.2.1",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0",
+    "prisma": "^6.2.1"
+  }
+}
